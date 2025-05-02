@@ -8,6 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Serilog" Version="4.2.0" />
     <PackageReference Include="Serilog.Enrichers.CorrelationId" Version="3.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
@@ -17,6 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Data\Shop.Context.Migrations\Shop.Context.Migrations.MSSQL\Shop.Context.Migrations.MSSQL.csproj" />
+    <ProjectReference Include="..\..\..\Data\Shop.Context.Migrations\Shop.Context.Migrations.PgSql\Shop.Context.Migrations.PgSql.csproj" />
+    <ProjectReference Include="..\..\..\Data\Shop.Context\Shop.Context.csproj" />
     <ProjectReference Include="..\..\..\Services\Shop.Servisec.Logger\Shop.Servisec.Logger.csproj" />
     <ProjectReference Include="..\..\..\Services\Shop.Servisec.Settings\Shop.Servisec.Settings.csproj" />
     <ProjectReference Include="..\..\..\Shared\Shop.Common\Shop.Common.csproj" />

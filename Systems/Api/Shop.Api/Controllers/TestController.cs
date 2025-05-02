@@ -22,7 +22,7 @@ public class TestController : ControllerBase
     [ApiVersion("1.0")]
     public int Test(int value)
     {
-        logger.Debug(this, "Executed {0}, value={1}", "GET:/v1/test/", value);
+        logger.Debug(this, "SOSOSSOOSOSOSOSOSOSOSOSOSOSOSOSOSOSOOSOSOSOSOSOSOS Executed {0}, value={1}", "GET:/v1/test/", value);
 
         return value;
     }
