@@ -4,6 +4,7 @@ using Shop.Services.Logger;
 using Shop.Services.Settings;
 using Shop.Settings;
 using Shop.Context;
+using Shop.Context.Seeder;
 
 var mainSettings = Settings.Load<MainSettings>("Main");
 var logSettings = Settings.Load<LogSettings>("Log");
@@ -52,7 +53,7 @@ app.UseAppControllerAndViews();
 
 DbInitializer.Execute(app.Services);
 
-//DbSeeder.Execute(app.Services);
+DbSeeder.Execute(app.Services);
 
 logger.Information("The Shop.API has started");
 

@@ -1,4 +1,5 @@
-﻿using Shop.Services.Logger;
+﻿using Shop.Context.Seeder;
+using Shop.Services.Logger;
 using Shop.Services.Settings;
 
 namespace Shop.Api;
@@ -12,6 +13,7 @@ namespace Shop.Api;
                .AddSwaggerSettings()
                .AddLogSettings()
                .AddAppLogger()
+               .AddDbSeeder();
                ;
 
         return service;

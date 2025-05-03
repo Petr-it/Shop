@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Context", "Data\Shop.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Context.Migrations.MSSQL", "Data\Shop.Context.Migrations\Shop.Context.Migrations.MSSQL\Shop.Context.Migrations.MSSQL.csproj", "{48F58CF5-4801-43C1-89F0-1C190CD92A2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Context.Seeder", "Data\Shop.Context.Seeder\Shop.Context.Seeder.csproj", "{7017A876-69A1-D9A4-2F98-1BA92AC0020C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{48F58CF5-4801-43C1-89F0-1C190CD92A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F58CF5-4801-43C1-89F0-1C190CD92A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48F58CF5-4801-43C1-89F0-1C190CD92A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7017A876-69A1-D9A4-2F98-1BA92AC0020C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7017A876-69A1-D9A4-2F98-1BA92AC0020C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7017A876-69A1-D9A4-2F98-1BA92AC0020C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7017A876-69A1-D9A4-2F98-1BA92AC0020C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{6FB6F686-A199-FC74-63D0-595CFA246FC9} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{AA609BE4-0787-50CC-A8A8-AB08E18124E2} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{48F58CF5-4801-43C1-89F0-1C190CD92A2E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7017A876-69A1-D9A4-2F98-1BA92AC0020C} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D03FFAB-A8F6-4B2B-A9BE-C381A5759C0E}

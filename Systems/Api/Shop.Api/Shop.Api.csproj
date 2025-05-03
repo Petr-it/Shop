@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Data\Shop.Context.Migrations\Shop.Context.Migrations.MSSQL\Shop.Context.Migrations.MSSQL.csproj" />
     <ProjectReference Include="..\..\..\Data\Shop.Context.Migrations\Shop.Context.Migrations.PgSql\Shop.Context.Migrations.PgSql.csproj" />
+    <ProjectReference Include="..\..\..\Data\Shop.Context.Seeder\Shop.Context.Seeder.csproj" />
     <ProjectReference Include="..\..\..\Data\Shop.Context\Shop.Context.csproj" />
     <ProjectReference Include="..\..\..\Services\Shop.Servisec.Logger\Shop.Servisec.Logger.csproj" />
     <ProjectReference Include="..\..\..\Services\Shop.Servisec.Settings\Shop.Servisec.Settings.csproj" />
